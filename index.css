@@ -1,32 +1,28 @@
 #parent{
     display: flex ;
     padding: 10px;
-    flex-wrap: wrap;
     flex-direction: row;
     border: 1px solid white;
-    
-   
-}
+   }
 img{
-    background-repeat: no-repeat;
-    /* height: 110%;
-    width: 50%; */
    
-    background-size: cover;
+   height: 70%;
+   width: 70%;
+   margin-left: 100px;
+   margin-right: 1px;
+   margin-bottom: 1px;
+   padding-right: 1px;
 }
-#parent>#div1{
-    margin-right: 0px;
-    padding-right: 0px;
-    /* background-size: 0px; */
-}
+#parent>div{
+   
+    height: 40%;
+    width: 40%;
+   }
 #parent>#div2{
-    padding-top: 500px;
-    margin-left: 0px;
-    /* margin-right: 10px; */
-    padding-right: 50px;
-    padding-left: 0px;
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    margin-left:0px ;
+    font-size: 30px;
     font-weight: bold;
     
 }
+
